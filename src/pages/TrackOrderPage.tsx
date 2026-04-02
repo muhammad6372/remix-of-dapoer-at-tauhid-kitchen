@@ -313,10 +313,6 @@ export default function TrackOrderPage() {
                           )}
 
                           <QrisTutorial />
-                              Atau buka halaman pembayaran
-                              <ExternalLink className="w-3 h-3" />
-                            </a>
-                          )}
                         </div>
                       </CardContent>
                     </Card>
