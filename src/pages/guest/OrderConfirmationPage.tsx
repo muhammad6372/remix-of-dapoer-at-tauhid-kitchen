@@ -3,6 +3,7 @@ import { useParams, Link } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import QrisTutorial from "@/components/QrisTutorial";
 import { Skeleton } from "@/components/ui/skeleton";
 import { supabase } from "@/integrations/supabase/client";
 import { usePayment } from "@/hooks/usePayment";
@@ -371,6 +372,11 @@ export default function OrderConfirmationPage() {
                     </a>
                   )}
                 </div>
+                {paymentInfo?.paymentMethod === "qris" && (
+                  <div className="mt-2">
+                    <QrisTutorial />
+                  </div>
+                )}
               </CardContent>
             </Card>
           )}
