@@ -26,3 +26,4 @@ dist-ssr
 # Environment Variables
 # .env
 bun.lock
+package-lock.json
