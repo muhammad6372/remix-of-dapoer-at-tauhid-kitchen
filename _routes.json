@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "include": [
+    "/*"
+  ],
+  "exclude": [
+    "/manifest.json",
+    "/manifest.webmanifest",
+    "/registerSW.js",
+    "/sw.js",
+    "/robots.txt",
+    "/sitemap.xml",
+    "/.well-known/*",
+    "/assets/*"
+  ]
+}
