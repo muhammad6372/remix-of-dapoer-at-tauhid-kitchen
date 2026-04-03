@@ -12,6 +12,8 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import NotFound from "./pages/NotFound";
 import TrackOrderPage from "./pages/TrackOrderPage";
+import SupportPage from "./pages/SupportPage";
+import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 
 // Guest Pages
 import GuestMenuPage from "./pages/guest/GuestMenuPage";
