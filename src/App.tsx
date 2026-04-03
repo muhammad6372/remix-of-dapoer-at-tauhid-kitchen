@@ -12,6 +12,8 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import NotFound from "./pages/NotFound";
 import TrackOrderPage from "./pages/TrackOrderPage";
+import SupportPage from "./pages/SupportPage";
+import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 
 // Guest Pages
 import GuestMenuPage from "./pages/guest/GuestMenuPage";
@@ -70,6 +72,8 @@ const App = () => (
               <Route path="/login" element={<Login />} />
               <Route path="/register" element={<Register />} />
               <Route path="/track" element={<TrackOrderPage />} />
+              <Route path="/support" element={<SupportPage />} />
+              <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
 
               {/* Guest Checkout Routes */}
               <Route path="/guest/menu" element={<GuestMenuPage />} />
