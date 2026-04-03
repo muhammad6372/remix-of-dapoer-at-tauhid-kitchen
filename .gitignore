@@ -27,3 +27,19 @@ dist-ssr
 # .env
 bun.lock
 package-lock.json
+
+# Keystore / Kunci Aplikasi (Sangat Rahasia)
+*.keystore
+*.jks
+*.idsig
+
+# Hasil Build Android
+/build/
+/app/build/
+*.apk
+*.aab
+
+# Konfigurasi Bubblewrap & SDK
+.bubblewrap/
+twa-manifest.json
+manifest-checksum.txt
