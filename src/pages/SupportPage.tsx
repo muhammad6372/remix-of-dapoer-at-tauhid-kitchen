@@ -128,8 +128,7 @@ export default function SupportPage() {
                   <Clock className="h-5 w-5 text-primary" />
                   <div>
                     <p className="font-medium text-foreground">Jam Operasional</p>
-                    <p className="text-sm text-muted-foreground">Senin – Jumat, 08:00 – 17:00 WIB</p>
-                    <p className="text-sm text-muted-foreground">Sabtu, 08:00 – 12:00 WIB</p>
+                    <p className="text-sm text-muted-foreground">Senin – Jumat, 07:00 – 16:00 WIB</p>
                   </div>
                 </div>
               </CardContent>
