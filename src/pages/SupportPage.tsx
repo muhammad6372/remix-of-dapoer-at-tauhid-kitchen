@@ -18,7 +18,7 @@ import {
   ArrowLeft,
   Send,
   HelpCircle,
-  ShieldCheck,
+  
 } from "lucide-react";
 
 const faqs = [
