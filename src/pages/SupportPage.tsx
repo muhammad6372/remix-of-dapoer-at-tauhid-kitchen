@@ -104,9 +104,9 @@ export default function SupportPage() {
                   href="https://wa.me/6281234567890"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3 p-3 rounded-lg bg-green-50 dark:bg-green-950/30 hover:bg-green-100 dark:hover:bg-green-950/50 transition-colors"
+                  className="flex items-center gap-3 p-3 rounded-lg bg-primary/10 hover:bg-primary/20 transition-colors"
                 >
-                  <MessageCircle className="h-5 w-5 text-green-600" />
+                  <MessageCircle className="h-5 w-5 text-primary" />
                   <div>
                     <p className="font-medium text-foreground">WhatsApp Admin</p>
                     <p className="text-sm text-muted-foreground">+62 812-3456-7890</p>
